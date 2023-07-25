@@ -24,3 +24,7 @@ button,
 textarea {
   font: inherit;
 }
+
+li {
+  list-style-type: none;
+}
