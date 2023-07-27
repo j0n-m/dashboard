@@ -15,7 +15,7 @@ svg,
 video,
 picture {
   display: block;
-  max-width: 100%;
+  max-height: 75px;
 }
 
 input,
@@ -27,4 +27,18 @@ textarea {
 
 li {
   list-style-type: none;
+}
+
+h1 {
+  font-size: 1.75rem;
+
+}
+
+h2 {
+  font-size: 1.2rem;
+
+}
+
+h3 {
+  font-size: .9rem;
 }

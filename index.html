@@ -13,18 +13,30 @@
   <div class="container">
     <div class="header">
       <div class="header-top-row">
-        <img src="./images/search-icon.svg" alt="search">
-        <input type="text" class="search-bar">
-        <img src="./images/notification-icon.svg" alt="notifications">
-        <div class="profile-icon-small">profile</div>
-        <h3>First Last</h3>
+        <div class="header-top-section-left">
+          <img src="./images/search-icon.svg" alt="search" class="icon">
+          <input type="text" class="search-bar">
+        </div>
+        <div class="header-top-section-right">
+          <img src="./images/notification-icon.svg" alt="notifications" class="icon">
+          <div class="profile-icon-small profile-avatar"></div>
+          <h2>Jonathan Monarrez</h2>
+
+        </div>
       </div>
       <div class="header-bottom-row">
-        <div class="profile-icon-medium">profile</div>
-        <h2>Hi there, first last</h2>
-        <button type="button">New</button>
-        <button type="button">Upload</button>
-        <button type="button">Share</button>
+        <div class="header-bottom-section-left">
+          <div class="profile-icon-medium profile-avatar"></div>
+          <h3>Hi there, <br><span class="header-greeting-name">Jonathan Monarrez (@jon)</span>
+          </h3>
+        </div>
+        <div class="header-bottom-section-right">
+          <a href="" class="header-btn-new header-btn">New</a>
+          <a href="" class="header-btn-upload header-btn">Upload</a>
+          <a href="" class="header-btn-share header-btn">Share</a>
+        </div>
+
+
 
       </div>
 
@@ -33,23 +45,36 @@
 
     <div class="sidebar">
       <div class="logo-section">
-        <img src="./images/dashboard-logo.svg" alt="logo" class="logo">
+        <img src="./images/logo.svg" alt="logo" class="logo">
         <h1 class="logo-title">Dashboard</h1>
       </div>
       <div class="user-section">
-        <img src="./images/home-icon.svg" alt="home">
+        <img src="./images/home-icon.svg" alt="home" class="icon">
         <h2>Home</h2>
 
-        <img src="./images/account-profile-icon.svg" alt="account profile">
+        <img src="./images/account-profile-icon.svg" alt="account profile" class="icon">
         <h2>Profile</h2>
 
-        <img src="./images/messages-icon.svg" alt="messages">
+        <img src="./images/messages-icon.svg" alt="messages" class="icon">
         <h2>Messages</h2>
+
+        <img src="./images/history-icon.svg" alt="history" class="icon">
+        <h2>History</h2>
+
+        <img src="./images/task-icon.svg" alt="task" class="icon">
+        <h2>Tasks</h2>
+
+        <img src="./images/community-icon.svg" alt="community" class="icon">
+        <h2>Communities</h2>
       </div>
 
       <div class="settings-section">
-        <img src="./images/settings-icon.svg" alt="settings">
+        <img src="./images/settings-icon.svg" alt="settings" class="icon">
         <h2>Settings</h2>
+        <img src="./images/support-icon.svg" alt="support" class="icon">
+        <h2>Support</h2>
+        <img src="./images/privacy-icon.svg" alt="privacy" class="icon">
+        <h2>Privacy</h2>
       </div>
 
     </div>
@@ -57,55 +82,79 @@
     <div class="main">
       <div class="main-grid-container">
         <h2 class="card-title-projects">Your projects</h2>
-        <h2 class="card-title-announcement">Announcements</h2>
 
         <div class="card --card-bg-color">
           <h2>Super Cool Project</h2>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil consequuntur animi aspernatur modi beatae
             eveniet soluta, ab quaerat nam quam cum, id porro molestias quos corporis eum obcaecati ducimus error.</p>
+          <div class="card-icons">
+            <img src="./images/card-share-icon.svg" alt="share" class="card-share-icon">
+            <img src="./images/card-star-icon.svg" alt="favorite" class="card-favorite-icon">
+          </div>
         </div>
         <div class="card --card-bg-color">
           <h2>Less Cool Project</h2>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil consequuntur animi aspernatur modi beatae
             eveniet soluta, ab quaerat nam quam cum, id porro molestias quos corporis eum obcaecati ducimus error.</p>
+          <div class="card-icons">
+            <img src="./images/card-share-icon.svg" alt="share" class="card-share-icon">
+            <img src="./images/card-star-icon.svg" alt="favorite" class="card-favorite-icon">
+          </div>
         </div>
         <div class="card --card-bg-color">
           <h2>Impossible App</h2>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil consequuntur animi aspernatur modi beatae
             eveniet soluta, ab quaerat nam quam cum, id porro molestias quos corporis eum obcaecati ducimus error.</p>
+          <div class="card-icons">
+            <img src="./images/card-share-icon.svg" alt="share" class="card-share-icon">
+            <img src="./images/card-star-icon.svg" alt="favorite" class="card-favorite-icon">
+          </div>
         </div>
         <div class="card --card-bg-color">
           <h2>Easy Peasy App</h2>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil consequuntur animi aspernatur modi beatae
             eveniet soluta, ab quaerat nam quam cum, id porro molestias quos corporis eum obcaecati ducimus error.</p>
+          <div class="card-icons">
+            <img src="./images/card-share-icon.svg" alt="share" class="card-share-icon">
+            <img src="./images/card-star-icon.svg" alt="favorite" class="card-favorite-icon">
+          </div>
         </div>
         <div class="card --card-bg-color">
           <h2>Ad Blocker</h2>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil consequuntur animi aspernatur modi beatae
             eveniet soluta, ab quaerat nam quam cum, id porro molestias quos corporis eum obcaecati ducimus error.</p>
+          <div class="card-icons">
+            <img src="./images/card-share-icon.svg" alt="share" class="card-share-icon">
+            <img src="./images/card-star-icon.svg" alt="favorite" class="card-favorite-icon">
+          </div>
         </div>
         <div class="card --card-bg-color">
           <h2>Money Maker</h2>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil consequuntur animi aspernatur modi beatae
             eveniet soluta, ab quaerat nam quam cum, id porro molestias quos corporis eum obcaecati ducimus error.</p>
+          <div class="card-icons">
+            <img src="./images/card-share-icon.svg" alt="share" class="card-share-icon">
+            <img src="./images/card-star-icon.svg" alt="favorite" class="card-favorite-icon">
+          </div>
         </div>
 
       </div>
       <div class="main-side">
+        <h2 class="card-title-announcement">Announcements</h2>
         <div class="card-announcement --card-bg-color">
-          <div class="card-announcement-1">
+          <div class="card-announcement-section">
             <h3 class="--card-anouncement-title">Site Maintenance</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat doloribus quibusdam, facere, fugiat
               exercitationem harum illum, dolor impedit fugit dolorum animi id fuga deserunt sunt officiis repellat
               illo
               dicta! Mollitia.</p>
           </div>
-          <div class="card-announcement-2">
+          <div class="card-announcement-section">
             <h3 class="--card-anouncement-title">Community Share Day</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam voluptate hic qui eum soluta. Labore
               animi rerum natus autem ea, esse culpa quibusdam aliquam distinctio illo amet saepe nobis tempora?</p>
           </div>
-          <div class="card-announcement-3">
+          <div class="card-announcement-section">
             <h3 class="--card-anouncement-title">Updated Privacy Policy</h3>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus culpa, dolore odit praesentium
               fugiat
@@ -114,12 +163,37 @@
           </div>
         </div>
 
+        <h2 class="card-title-trending">Trending</h2>
+
         <div class="card-trending --card-bg-color">
-          <h2 class="card-title-trending">Trending</h2>
-          <div class="card-trending-1">1</div>
-          <div class="card-trending-2">2</div>
-          <div class="card-trending-3">3</div>
-          <div class="card-trending-4">4</div>
+          <div class="card-trending-section">
+            <div class="profile-icon-small batman-avatar"></div>
+            <div class="user-info">
+              <h3>@batman</h3>
+              <p>I'm rich</p>
+            </div>
+          </div>
+          <div class="card-trending-section">
+            <div class="profile-icon-small superman-avatar"></div>
+            <div class="user-info">
+              <h3>@superman</h3>
+              <p>The complete superhero</p>
+            </div>
+          </div>
+          <div class="card-trending-section">
+            <div class="profile-icon-small the-flash-avatar"></div>
+            <div class="user-info">
+              <h3>@the_flash</h3>
+              <p>Fast and Speedy</p>
+            </div>
+          </div>
+          <div class="card-trending-section">
+            <div class="profile-icon-small spiderman-avatar"></div>
+            <div class="user-info">
+              <h3>@spiderman</h3>
+              <p>Don't look down</p>
+            </div>
+          </div>
 
         </div>
       </div>
